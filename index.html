@@ -192,13 +192,9 @@
                     </div>
                 </div>
 
-                <div>
-                    <div class="bg-white bg-opacity-10 backdrop-blur border border-white border-opacity-20 rounded-lg p-6 text-center">
-                        <h3 class="text-2xl font-semibold mb-4 text-white">Professional Package Tracking</h3>
-                        <p class="text-purple-100">
-                            Track multiple packages with detailed information and real-time updates. Use our comprehensive tracking system below for complete package details.
-                        </p>
-                    </div>
+                <!-- Added FedEx employee image -->
+                <div class="flex justify-center">
+                    <img src="/images/img1.png" alt="FedEx Employee" class="rounded-lg shadow-2xl h-96 object-cover">
                 </div>
             </div>
         </div>
@@ -271,32 +267,32 @@ Try these sample numbers:
             </div>
 
             <div class="grid md:grid-cols-3 gap-8 mb-16">
-                <div class="bg-white rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow">
-                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-bolt text-2xl text-fedex-purple"></i>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <img src="/images/img2.png" alt="FedEx Express Service" class="w-full h-48 object-cover">
+                    <div class="p-8 text-center">
+                        <h3 class="text-xl font-semibold mb-3">FedEx Express</h3>
+                        <p class="text-gray-600 mb-4">Fast, reliable express delivery worldwide</p>
+                        <ul class="text-sm text-gray-600 space-y-1 mb-6 text-left">
+                            <li>• Next business day</li>
+                            <li>• International express</li>
+                            <li>• Time-definite delivery</li>
+                        </ul>
+                        <button class="w-full px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors">Learn More</button>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">FedEx Express</h3>
-                    <p class="text-gray-600 mb-4">Fast, reliable express delivery worldwide</p>
-                    <ul class="text-sm text-gray-600 space-y-1 mb-6 text-left">
-                        <li>• Next business day</li>
-                        <li>• International express</li>
-                        <li>• Time-definite delivery</li>
-                    </ul>
-                    <button class="w-full px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors">Learn More</button>
                 </div>
 
-                <div class="bg-white rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow">
-                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-truck text-2xl text-fedex-orange"></i>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <img src="/images/img3.png" alt="FedEx Ground Service" class="w-full h-48 object-cover">
+                    <div class="p-8 text-center">
+                        <h3 class="text-xl font-semibold mb-3">FedEx Ground</h3>
+                        <p class="text-gray-600 mb-4">Cost-effective ground shipping solutions</p>
+                        <ul class="text-sm text-gray-600 space-y-1 mb-6 text-left">
+                            <li>• 1-5 business days</li>
+                            <li>• Residential delivery</li>
+                            <li>• Commercial delivery</li>
+                        </ul>
+                        <button class="w-full px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors">Learn More</button>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">FedEx Ground</h3>
-                    <p class="text-gray-600 mb-4">Cost-effective ground shipping solutions</p>
-                    <ul class="text-sm text-gray-600 space-y-1 mb-6 text-left">
-                        <li>• 1-5 business days</li>
-                        <li>• Residential delivery</li>
-                        <li>• Commercial delivery</li>
-                    </ul>
-                    <button class="w-full px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors">Learn More</button>
                 </div>
 
                 <div class="bg-white rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow">
@@ -333,6 +329,40 @@ Try these sample numbers:
                         <h4 class="text-lg font-semibold mb-2">Time-Definite</h4>
                         <p class="text-gray-600">Guaranteed delivery times you can count on</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How We Work Section -->
+    <section class="py-20 bg-gradient-to-r from-purple-50 to-orange-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-6 text-gray-900">How We Work</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        From pickup to delivery, we ensure your packages are handled with care and delivered on time. Our professional team uses advanced tracking systems to keep you informed every step of the way.
+                    </p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-check-circle text-fedex-orange text-xl"></i>
+                            <span class="text-gray-700">Professional package inspection and handling</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-check-circle text-fedex-orange text-xl"></i>
+                            <span class="text-gray-700">Real-time tracking updates</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-check-circle text-fedex-orange text-xl"></i>
+                            <span class="text-gray-700">Secure and reliable delivery</span>
+                        </li>
+                    </ul>
+                    <button class="bg-fedex-orange text-white px-8 py-3 rounded-md font-semibold hover:bg-orange-600 transition-colors">
+                        Get Started Today
+                    </button>
+                </div>
+                <div class="flex justify-center">
+                    <img src="/images/img4.png" alt="Professional Package Handling" class="rounded-lg shadow-2xl h-96 object-cover">
                 </div>
             </div>
         </div>
