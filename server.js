@@ -9,7 +9,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 const app = express()
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 7860
 const DATA_FILE = path.join(__dirname, "public", "upload.json")
 const UPLOADS_DIR = path.join(__dirname, "public", "uploads")
 
